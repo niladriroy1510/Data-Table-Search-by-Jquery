@@ -1,0 +1,10 @@
+$(document).ready(function() {
+    $('#example').DataTable( {
+        "scrollY":        "",
+        "scrollCollapse": false,
+        "paging":         true,
+		"ordering": false,
+        "info":     true,
+		"searching": false,
+    } );
+} );
